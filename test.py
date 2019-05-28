@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*-coding: utf-8 -*-
 
-a, b = ['a', 'b']
-print(a, b)
+import pyautogui as pg
+import time
+
+while 1:
+    pg.click()
+    time.sleep(0.0001)
